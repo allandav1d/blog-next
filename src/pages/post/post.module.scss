@@ -1,1 +1,36 @@
-// TODO
+.postBanner {
+  width: 100vw;
+  height: 400px;
+  object-fit: cover;
+}
+
+.post {
+  padding: 2rem;
+
+  h2 {
+    margin: 3rem 0;
+  }
+
+  h1 {
+    color: var(--heading);
+    margin: 1rem 0;
+  }
+
+  color: var(--info);
+
+  p {
+    margin: 1rem 0;
+  }
+
+  .postInfo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .postInfoItem {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}
